@@ -1,5 +1,5 @@
 # FedLearn
-demo federated learning scenario
+federated learning scenario of some fair federated learning algorithms
 
 ## three baselines
 
