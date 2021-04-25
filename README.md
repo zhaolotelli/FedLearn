@@ -19,4 +19,4 @@ python main.py -o qFFL -d fmnist -i 1000 -b 20 -q 5 --fair_L 5 --seed 13
 
 ## full example 
 
-a full FedAvg example is in [Fed_CIFAR10.ipynb]
+a full FedAvg example is in [Fed_CIFAR10.ipynb](https://github.com/zhaolotelli/FedLearn/blob/master/Fed_CIFAR10.ipynb)
