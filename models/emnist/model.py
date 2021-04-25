@@ -7,7 +7,7 @@ from torch.utils.data import TensorDataset, DataLoader, BatchSampler, RandomSamp
 dev = torch.device(
     "cuda") if torch.cuda.is_available() else torch.device("cpu")
         
-class my_CNN(nn.Module):
+class CNN(nn.Module):
     ''' 
     the CNN model structure is from https://pytorch.org/tutorials/beginner/nn_tutorial.html
     '''
