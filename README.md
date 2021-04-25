@@ -1,7 +1,7 @@
 # FedLearn
 demo federated learning scenario
 
-## some example cmd command
+## some example cmd commands
 
 ```
 python main.py -i 10 -e 5 --seed 13
@@ -13,4 +13,4 @@ python main.py -o qFFL -d fmnist -i 1000 -b 20 -q 5 --fair_L 5 --seed 13
 
 ## full example 
 
-a full FedAvg example is in Fed Cifar10.ipynb
+a full FedAvg example is in Fed_Cifar10.ipynb
