@@ -1,5 +1,5 @@
 # FedLearn
-federated learning scenario of some fair federated learning algorithms
+federated learning scenario of some fair federated learning algorithms based on pytorch
 
 ## three baselines
 
