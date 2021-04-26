@@ -1,7 +1,8 @@
 import torch
 import torch.nn.functional as F
 from torch import nn, optim
-from torch.utils.data import TensorDataset, DataLoader, BatchSampler, RandomSampler
+from torch.utils.data import Dataset, TensorDataset, DataLoader, BatchSampler, RandomSampler
+from PIL import Image
 from datasets.cifar10.preprocess import transform
 
 class Client_Dataset(Dataset):
