@@ -80,7 +80,7 @@ def read_options():
     mod = importlib.import_module(model_path)
     learner = getattr(mod, parsed['model'])
 	
-	# preprocess data
+    # preprocess data
     pre_path = '%s.%s.%s' % ('datasets', parsed['dataset'], 'preprocess')
     mod = importlib.import_module(pre_path)
     preprocess = getattr(mod, 'preprocess')
